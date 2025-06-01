@@ -3503,7 +3503,7 @@ td:last-child {
 .s-pageheader {
 	padding-top     : var(--vspace-6);
 	padding-bottom  : var(--vspace-3);
-	background-color: var(--color-2-dark);
+	background-color: var(--color-black);
 	text-align      : center;
 }
 
@@ -3579,8 +3579,8 @@ td:last-child {
 	--content-padding-bottom: 10.8rem;
 	--content-min-height    : calc(var(--vspace-1) * 27);
 	z-index                 : 2;
-	background-color        : var(--color-2-dark);
-	background              : linear-gradient(20deg, hsl(130deg, 8%, 14%) 40%, hsl(0deg, 0%, 13%) 100%);
+	background-color        : var(blac);
+	background              : linear-gradient(0%, hsl(0, 0%, 0%) 40%, hsl(0deg, 0%, 13%) 100%);
 	width                   : 100%;
 	height                  : max(var(--content-min-height), 100vh);
 	overflow                : hidden;
@@ -3948,7 +3948,7 @@ td:last-child {
 .s-about {
 	padding-top     : var(--vspace-6);
 	padding-bottom  : var(--vspace-6);
-	background-color: var(--color-2-dark);
+	background-color: var(--color-black);
 	color           : var(--color-3);
 }
 
